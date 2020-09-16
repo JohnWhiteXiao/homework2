@@ -61,6 +61,9 @@ d.     Header 2 drop shadow is #c7e2c7 with the same parameters as above */
     color: #000000
     /* text-shadow: #c7e2c7; */
 }
+#yellow h2{
+    text-shadow: 5px 5px 2px #c7e3c7
+}
 /* Green div has the following styles
 a.     Background color is hexadecimal value for office green 
 b.     Text is aligned on the left side */
@@ -71,8 +74,10 @@ b.     Text is aligned on the left side */
 on the bottom and right only.  */
 footer{
     text-align: right;
-    /* change the setting for <p> */
-    padding-top: 0;
     padding-bottom: 10px;
     padding-right: 10px;
+}
+footer p{
+    /* change the setting for <p> */
+    padding-top: 0px;
 }
