@@ -71,6 +71,8 @@ b.     Text is aligned on the left side */
 on the bottom and right only.  */
 footer{
     text-align: right;
+    /* change the setting for <p> */
+    padding-top: 0;
     padding-bottom: 10px;
     padding-right: 10px;
 }
